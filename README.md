@@ -1,35 +1,56 @@
 Lorem Ipsum generator
 =====================
 
-JavaScript random text generator...
+JavaScript ES module random text generator
+
+## Usage
+
+```sh
+npm i @jsilvermist/lorem-ipsum-js
+```
+
+```js
+import { LoremIpsum } from '@jsilvermist/lorem-ipsum-js';
+```
 
 #### Random sentence
 
-	var ipsum = new LoremIpsum();
-	console.log(ipsum.sentence());
+```js
+const ipsum = new LoremIpsum();
+console.log(ipsum.sentence());
+```
 
 #### Random sentence specific length
 
-	var ipsum = new LoremIpsum();
-	console.log(ipsum.sentence(12));
+```js
+const ipsum = new LoremIpsum();
+console.log(ipsum.sentence(12));
+```
 
 #### Random sentence dynamic length
 
-	var ipsum = new LoremIpsum();
-	console.log(ipsum.sentence(8, 12));
+```js
+const ipsum = new LoremIpsum();
+console.log(ipsum.sentence(8, 12));
+```
 
 #### Random paragraph
 
-	var ipsum = new LoremIpsum();
-	console.log(ipsum.paragraph());
+```js
+const ipsum = new LoremIpsum();
+console.log(ipsum.paragraph());
+```
 
 #### Random paragraph specific length
 
-	var ipsum = new LoremIpsum();
-	console.log(ipsum.paragraph(50));
+```js
+const ipsum = new LoremIpsum();
+console.log(ipsum.paragraph(50));
+```
 
 #### Random paragraph dynamic length
 
-	var ipsum = new LoremIpsum();
-	console.log(ipsum.paragraph(20, 60));
-
+```js
+const ipsum = new LoremIpsum();
+console.log(ipsum.paragraph(20, 60));
+```

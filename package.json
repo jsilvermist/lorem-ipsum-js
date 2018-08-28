@@ -1,16 +1,18 @@
 {
-  "name": "lorem-ipsum-js",
+  "name": "@jsilvermist/lorem-ipsum-js",
   "title": "Lorem Ipsum generator",
-  "description": "JavaScript random text generator...",
+  "description": "JavaScript ES module random text generator...",
   "version": "0.1.0",
   "main": "src/lorem-ipsum.js",
-  "homepage": "https://github.com/fffilo/lorem-ipsum-js",
+  "license": "MIT",
+  "homepage": "https://github.com/jsilvermist/lorem-ipsum-js",
   "authors": [
-    "Franjo Filo <fffilo666@gmail.com>"
+    "Franjo Filo <fffilo666@gmail.com>",
+    "Jason Allen [Jsilvermist] <jsilvermist@silverlinkz.net>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fffilo/lorem-ipsum-js.git"
+    "url": "https://github.com/jsilvermist/lorem-ipsum-js.git"
   },
   "keywords": [
     "javascript",
